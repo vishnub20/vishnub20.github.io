@@ -1,0 +1,125 @@
+
+
+html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+    background-image: url(./Background.jpg);
+    background-attachment:fixed ;
+    color: whitesmoke;
+  }
+  
+  section {
+    margin: 40px auto;
+    gap: 30px;
+    max-width: 300px;
+  }
+  
+  .common-container {
+    border-radius: 20px;
+    height: 100%;
+    justify-content: space-evenly;
+  }
+  
+  h4,
+  p {
+    margin: 0;
+  }
+  #home{
+    text-align: center;
+    background-color: rgba(56, 55, 55, 0.9);
+    border-radius: 10%;
+    padding: 10px;
+  }
+  
+  #home h2,
+  #home p {
+   color: rgb(211, 211, 214);
+    font-weight: 500;
+  }
+  
+  .home-container {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 40px auto;
+    box-shadow:  -2px -2px 17px #000000, 7px 7px 18px rgba(19, 19, 19, 0.15);
+    
+  }
+  
+  #home img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+
+  
+  #bio,
+  .container,
+  .common-container,
+  .outer-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  #bio,
+  .common-container,
+  .outer-container {
+    flex-direction: column;
+  }
+  
+  .container {
+    height: 140px;
+    gap: 20px;
+  }
+  
+  .common-container {
+    width: 120px;
+    background-color: rgba(31, 30, 30, 0.9);
+    box-shadow:  -2px -2px 17px #000000, 7px 7px 18px rgba(19, 19, 19, 0.15);
+  }
+  
+  #bio p {
+    text-align: justify;
+  }
+  
+  #bio .common-container p {
+    text-align: center;
+  }
+  
+  .container div {
+    flex: 1;
+  }
+  .kce{
+    height: 60px;
+    width: 100px;
+    border-radius: 10px;
+
+  }
+  #footprint{
+    height: 80px;
+    width: 100px;
+  }
+  #img-con{
+    height: 150px;
+    width: 250px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(31, 30, 30, 0.9);
+    box-shadow:  -2px -2px 17px #000000, 7px 7px 18px rgba(19, 19, 19, 0.15);
+  }
+  #img{
+    height: 100px;
+    border-radius:20px;
+  }
+  footer {
+    text-align: center;
+    color:black;
+    margin: 100px auto;
+  }
